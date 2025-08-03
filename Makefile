@@ -6,7 +6,7 @@
 #    By: lveerkam <lveerkam@student.codam.nl>         +#+                      #
 #                                                    +#+                       #
 #    Created: 2025/08/02 19:18:29 by lveerkam      #+#    #+#                  #
-#    Updated: 2025/08/02 21:06:40 by lveerkam      ########   odam.nl          #
+#    Updated: 2025/08/03 20:15:31 by lveerkam      ########   odam.nl          #
 #                                                                              #
 # **************************************************************************** #
 
@@ -27,7 +27,7 @@ OBJS_WIN = $(patsubst $(SRC_DIR)/%.c, $(OBJ_DIR)/windows/%.o, $(SRCS))
 INCLUDE_LINUX = -Iinclude
 INCLUDE_WIN = -Ilib/raylib-windows/raylib-5.5_win64_mingw-w64/include
 LDFLAGS_LINUX = -L$(LIB_DIR)/raylib_linux -lraylib -lGL -lrt -lX11 -ldl -lpthread -lm
-LDFLAGS_WIN = -L$(LIB_DIR)/raylib-windows/raylib-5.5_win64_mingw-w64/lib -lraylib -lopengl32 -lgdi32 -lwinmm
+LDFLAGS_WIN = $(LIB_DIR)/raylib-windows/raylib-5.5_win64_mingw-w64/lib/libraylib.a -lopengl32 -lgdi32 -lwinmm
 NAME = tuner
 
 all: linux windows
