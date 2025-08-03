@@ -7,9 +7,8 @@ To compile you need the raylib and miniaudio as dependancies. `miniaudio.h` is i
 
 Full instructions are here: [raylib github linux](https://github.com/raysan5/raylib/wiki/Working-on-GNU-Linux)
 
-`sudo apt install build-essential git cmake`
-
-```bash
+```
+sudo apt install build-essential git cmake
 sudo apt install libasound2-dev libx11-dev libxrandr-dev libxi-dev libgl1-mesa-dev libglu1-mesa-dev libxcursor-dev libxinerama-dev libwayland-dev libxkbcommon-dev
 ```
 
