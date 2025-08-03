@@ -3,7 +3,7 @@ A guitar tuner for Linux or Windows that detects frequencies between 60 and 1060
 
 To compile you need the raylib and miniaudio as dependancies. `miniaudio.h` is included in the include folder. Follow the instructions for raylib, for Linux and Windows respectively.
 
-### Linux:
+### Linux version:
 
 Full instructions are here: [raylib github linux](https://github.com/raysan5/raylib/wiki/Working-on-GNU-Linux)
 
@@ -24,7 +24,7 @@ sudo ldconfig
 ```
 In the root folder run `make linux`
 
-### Windows
+### Windows version
 
 Full instructions are here: [raylib github windows](https://github.com/raysan5/raylib/wiki/Working-on-GNU-Linux)
 
