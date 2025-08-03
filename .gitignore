@@ -8,9 +8,9 @@
 *.elf
 
 # Folders
-bin
 lib
 obj
+bin
 
 # Linker output
 *.ilk
