@@ -1,19 +1,23 @@
-# guitar_tuner
-A guitar tuner for Linux or Windows that detects frequencies between 60 and 1060 Hz. Building is done on a Linux machine. ./bin/tuner is for Linx, ./bin/tuner.exe is the Windows executable.
+# Simple Guitar Tuner
+A guitar tuner for Linux or Windows that detects frequencies between 60 and 1060 Hz. Building is done on a Linux machine. ./bin/tuner is for Linux, ./bin/tuner.exe is the Windows executable.
 
-To run it you need the raylib and miniaudio as dependancies. `miniaudio.h` is included in the include folder. Follow the instructions for raylib, for Linux and Windows respectively.
+To compile you need the raylib and miniaudio as dependancies. `miniaudio.h` is included in the include folder. Follow the instructions for raylib, for Linux and Windows respectively.
 
-## Linux:
+### Linux:
 
 Full instructions are here: [raylib github linux](https://github.com/raysan5/raylib/wiki/Working-on-GNU-Linux)
 
 `sudo apt install build-essential git cmake`
+
 Ubuntu
 `sudo apt install libasound2-dev libx11-dev libxrandr-dev libxi-dev libgl1-mesa-dev libglu1-mesa-dev libxcursor-dev libxinerama-dev libwayland-dev libxkbcommon-dev`
+
 Fedora
 `sudo dnf install alsa-lib-devel mesa-libGL-devel libX11-devel libXrandr-devel libXi-devel libXcursor-devel libXinerama-devel libatomic`
+
 Arch Linux
 `sudo pacman -S alsa-lib mesa libx11 libxrandr libxi libxcursor libxinerama`
+
 Void Linux
 `sudo xbps-install make alsa-lib-devel libglvnd-devel libX11-devel libXrandr-devel libXi-devel libXcursor-devel libXinerama-devel mesa MesaLib-devel`
 
@@ -29,7 +33,7 @@ sudo ldconfig
 ```
 In the root folder run `make linux`
 
-## Windows
+### Windows
 
 Full instructions are here: [raylib github windows](https://github.com/raysan5/raylib/wiki/Working-on-GNU-Linux)
 
