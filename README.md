@@ -39,4 +39,4 @@ rm raylib-5.5_win64_mingw-w64.zip
 
 ### Compile tuner
 
-In the root folder run `make linux` or `make windows`, dependant on your target system.
+In the root folder run `make linux` or `make windows`, depending on your target system.
