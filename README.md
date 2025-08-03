@@ -31,7 +31,7 @@ Full instructions are here: [raylib github windows](https://github.com/raysan5/r
 
 Build raylib
 ```
-mkdir lib && cd lib mkdir raylib-windows && cd raylib-windows
+mkdir lib && cd lib && mkdir raylib-windows && cd raylib-windows
 wget https://github.com/raysan5/raylib/releases/download/5.5/raylib-5.5_win64_mingw-w64.zip
 unzip raylib-5.5_win64_mingw-w64.zip
 rm raylib-5.5_win64_mingw-w64.zip
