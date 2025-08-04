@@ -6,7 +6,7 @@
 /*   By: lveerkam <lveerkam@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2025/08/01 19:42:33 by lveerkam      #+#    #+#                 */
-/*   Updated: 2025/08/03 18:05:55 by lveerkam      ########   odam.nl         */
+/*   Updated: 2025/08/03 22:29:49 by lveerkam      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -70,6 +70,7 @@ static int	service_start(t_setup *setup)
 	{
 		//printf("Failed to start device.\n");
 		ma_device_uninit(&setup->device);
+		CloseWindow();
 		return (EXIT_FAILURE);
 	}
 	return (0);

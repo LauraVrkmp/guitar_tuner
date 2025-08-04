@@ -11,6 +11,8 @@
 lib
 obj
 bin
+src_chat
+include_chat
 
 # Linker output
 *.ilk

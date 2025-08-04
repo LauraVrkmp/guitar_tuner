@@ -6,7 +6,7 @@
 /*   By: lveerkam <lveerkam@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2025/08/01 19:42:38 by lveerkam      #+#    #+#                 */
-/*   Updated: 2025/08/03 18:00:21 by lveerkam      ########   odam.nl         */
+/*   Updated: 2025/08/04 10:36:27 by lveerkam      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,8 +17,8 @@
 # define CHANNELS 1
 # define BUFFER_DUR_MSEC 50
 # define BUFFER_SIZE (SAMPLE_RATE * BUFFER_DUR_MSEC / 1000)
-# define HOP_SIZE 512
-# define YIN_THRESHOLD 0.15f
+# define HOP_SIZE 128
+# define YIN_THRESHOLD 0.07f
 # define DIMENSIONS 600
 
 # define WIN32_LEAN_AND_MEAN
