@@ -2,7 +2,7 @@
 A guitar tuner for Linux or Windows that detects frequencies between 60 and 1060 Hz. Building is done on a Debian based Linux machine. ./bin/tuner is for Linux, ./bin/tuner.exe is the Windows executable.
     
 To compile you need raylib and miniaudio as dependancies. `miniaudio.h` is included in the include folder. Follow the instructions for raylib, for Linux and Windows respectively.
-<br><br><img src="img/screenshot_guitar_tuner.png" alt="Screenshot" align="right" width="300">
+<br><br><img src="img/screenshot_guitar_tuner.png" alt="Screenshot" width="300">
 
 ### Linux version
 
